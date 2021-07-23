@@ -39,18 +39,12 @@ a:hover {
 #apps-icon {
     width: 25px;
     display: flex;
+    opacity: 0.7;
 }
-#sign-in-button {
-    background-color: rgb(66, 133, 244);
-    color: white;
-    border-radius: 2px;
-    border-width: 0;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 7px 12px;
-}
-#sign-in-button:focus {
-    outline: none;
+#profile-pic {
+    width: 32px;
+    border-radius: 50px;
+    display: flex;
 }
 #google-search {
     display: flex;
